@@ -1,0 +1,26 @@
+
+{
+  "name": "jaseb-system-nodejs",
+  "version": "1.0.0",
+  "description": "Jaseb Express Bot System - Professional Edition converted to Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "login": "node loginHelper.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["telegram", "bot", "userbot", "jaseb", "express", "nodejs"],
+  "author": "Jaseb System",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0",
+    "colors": "^1.4.0",
+    "cli-table3": "^0.6.3",
+    "enquirer": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
